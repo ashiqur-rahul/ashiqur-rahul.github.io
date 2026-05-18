@@ -386,7 +386,7 @@ html[data-theme="light"] .portrait-shell {
   height: 100%;
   min-height: 420px;
   object-fit: cover;
-  object-position: center 38%;
+  object-position: center 24%;
   border-radius: 0;
   transform: none;
   filter: saturate(1.02) contrast(1.03);
