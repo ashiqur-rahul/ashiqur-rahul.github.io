@@ -1,6 +1,6 @@
-# Portfolio Update: About Section + Profile Image
+# Portfolio Polish Update
 
-Replace these files in your GitHub Pages repository:
+Replace these files in your portfolio repository:
 
 ```text
 index.html
@@ -8,26 +8,26 @@ styles.css
 script.js
 ```
 
-Add your professional photo here:
+Keep your existing files:
 
 ```text
 assets/profile.jpg
-```
-
-Recommended photo:
-- JPG or PNG
-- portrait orientation
-- around 900 x 1100 px or 1200 x 1400 px
-- neutral or dark background
-
-Keep your CV here:
-
-```text
 assets/Ashiqur_Rahman_Rahul_CV.pdf
 ```
 
-Suggested commit message:
+## What changed
+
+- Better profile-photo positioning and subtle portrait glow
+- Better hero spacing
+- More glassmorphism-style metric cards
+- Navbar hover animations
+- Project/repo hover animations
+- Added `Explore Projects ↓` cue
+- Added Featured Repositories section
+- Added paper/chapter links in Publications
+
+## Commit message
 
 ```text
-Improve portfolio with about section and profile image
+Polish portfolio UI and add publication links
 ```
