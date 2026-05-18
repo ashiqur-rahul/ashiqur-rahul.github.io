@@ -1,49 +1,33 @@
-# Ashiqur Rahman Rahul — Portfolio Website
+# Portfolio Update: About Section + Profile Image
 
-A premium responsive portfolio website for AI systems, embedded AI, GPU & edge computing, AI infrastructure, and energy-aware deployment optimization roles.
-
-## Recommended Repository Name
-
-```text
-ashiqurrahmanrahul.github.io
-```
-
-This will publish the website at:
-
-```text
-https://ashiqurrahmanrahul.github.io
-```
-
-## Files
+Replace these files in your GitHub Pages repository:
 
 ```text
 index.html
 styles.css
 script.js
-assets/
-  Ashiqur_Rahman_Rahul_CV.pdf
-README.md
 ```
 
-## Deploy with GitHub Pages
-
-1. Create a new repository named `ashiqurrahmanrahul.github.io`.
-2. Upload all files from this folder to the repository root.
-3. Commit the files.
-4. Go to `Settings → Pages`.
-5. Select `Deploy from branch`, branch `main`, folder `/root`.
-6. Wait 1–2 minutes.
-
-## Links to Update
-
-The website already includes:
-
-- GitHub: `https://github.com/ashiqur-rahul`
-- LinkedIn: `https://www.linkedin.com/in/ashiqur-rahman-rahul/`
-- Email: `mailto:ashiqurrahul2506@gmail.com`
-
-## Suggested Commit Message
+Add your professional photo here:
 
 ```text
-Launch AI systems portfolio website
+assets/profile.jpg
+```
+
+Recommended photo:
+- JPG or PNG
+- portrait orientation
+- around 900 x 1100 px or 1200 x 1400 px
+- neutral or dark background
+
+Keep your CV here:
+
+```text
+assets/Ashiqur_Rahman_Rahul_CV.pdf
+```
+
+Suggested commit message:
+
+```text
+Improve portfolio with about section and profile image
 ```

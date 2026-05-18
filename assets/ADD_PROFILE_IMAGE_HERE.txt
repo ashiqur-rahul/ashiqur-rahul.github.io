@@ -1,0 +1,3 @@
+Add your professional photo here and rename it to profile.jpg
+Recommended: 900x1100 or 1200x1400 px, JPG or PNG.
+The website expects: assets/profile.jpg

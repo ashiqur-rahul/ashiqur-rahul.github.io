@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Ashiqur Rahman Rahul | AI Systems Engineer</title>
   <meta name="description" content="Portfolio of Ashiqur Rahman Rahul — AI Systems Engineer focused on AI infrastructure, embedded AI, GPU & edge computing, inference optimization, and energy-aware AI systems." />
+  <meta name="author" content="Ashiqur Rahman Rahul" />
   <meta property="og:title" content="Ashiqur Rahman Rahul | AI Systems Engineer" />
   <meta property="og:description" content="AI Systems, Embedded AI, GPU & Edge Computing, AI Infrastructure and Energy-Aware Optimization." />
   <meta property="og:type" content="website" />
@@ -19,16 +20,11 @@
   <div class="cursor-glow" id="cursorGlow"></div>
 
   <nav class="nav">
-    <a href="#top" class="brand"><span class="brand-orb">AR</span><span class="brand-text">Ashiqur Rahman Rahul</span></a>
-    <button class="mobile-menu" id="mobileMenu">☰</button>
+    <a href="#top" class="brand" aria-label="Home"><span class="brand-orb">AR</span><span class="brand-text">Ashiqur Rahman Rahul</span></a>
+    <button class="mobile-menu" id="mobileMenu" aria-label="Toggle navigation">☰</button>
     <div class="nav-links" id="navLinks">
-      <a href="#expertise">Expertise</a>
-      <a href="#experience">Experience</a>
-      <a href="#projects">Projects</a>
-      <a href="#skills">Skills</a>
-      <a href="#publications">Publications</a>
-      <a href="#contact">Contact</a>
-      <button class="theme-toggle" id="themeToggle">◐</button>
+      <a href="#about">About</a><a href="#expertise">Expertise</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#publications">Publications</a><a href="#contact">Contact</a>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">◐</button>
     </div>
   </nav>
 
@@ -36,23 +32,24 @@
     <div class="hero-copy reveal">
       <div class="status-pill"><span class="live-dot"></span> AI Systems · Embedded AI · Sustainable Infrastructure</div>
       <h1>Building AI systems that are <span class="gradient-text">optimized, scalable & energy-aware.</span></h1>
-      <p class="hero-lead">
-        AI Systems Engineer working across AI product development, machine learning, embedded systems, GPU computing,
-        edge AI, deployment optimization, and infrastructure-aware analytics. Currently contributing to AI energy profiling,
-        benchmarking, and optimization research at the Cambridge Centre for Alternative Finance, University of Cambridge.
-      </p>
+      <p class="hero-lead">AI Systems Engineer working across AI product development, machine learning, embedded systems, GPU computing, edge AI, deployment optimization, and infrastructure-aware analytics. Currently contributing to AI energy profiling, benchmarking, and optimization research at the Cambridge Centre for Alternative Finance, University of Cambridge.</p>
       <div class="hero-actions">
-        <a class="btn primary" href="assets/Ashiqur_Rahman_Rahul_CV.pdf" target="_blank">Download CV</a>
-        <a class="btn" href="https://github.com/ashiqur-rahul" target="_blank">GitHub</a>
-        <a class="btn" href="https://www.linkedin.com/in/ashiqur-rahman-rahul/" target="_blank">LinkedIn</a>
+        <a class="btn primary" href="assets/Ashiqur_Rahman_Rahul_CV.pdf" target="_blank" rel="noopener">Download CV</a>
+        <a class="btn" href="https://github.com/ashiqur-rahul" target="_blank" rel="noopener">GitHub</a>
+        <a class="btn" href="https://www.linkedin.com/in/ashiqur-rahman-rahul/" target="_blank" rel="noopener">LinkedIn</a>
         <a class="btn ghost" href="mailto:ashiqurrahul2506@gmail.com">Email</a>
       </div>
-      <div class="hero-tags">
-        <span>AI Infrastructure</span><span>Edge AI</span><span>ONNX Runtime</span><span>CUDA</span><span>Carbon-Aware AI</span>
-      </div>
+      <div class="hero-tags"><span>AI Infrastructure</span><span>Edge AI</span><span>ONNX Runtime</span><span>CUDA</span><span>Carbon-Aware AI</span></div>
     </div>
 
-    <div class="hero-system reveal">
+    <div class="hero-visual reveal">
+      <div class="portrait-shell">
+        <div class="portrait-glow"></div>
+        <picture><source srcset="assets/profile.webp" type="image/webp"><img src="assets/profile.jpg" alt="Ashiqur Rahman Rahul" class="profile-photo" onerror="this.style.display='none'; document.querySelector('.portrait-fallback').style.display='grid';"></picture>
+        <div class="portrait-fallback" aria-hidden="true"><span>AR</span><small>Add photo as<br>assets/profile.jpg</small></div>
+        <div class="identity-chip"><strong>AI Systems Engineer</strong><span>Cambridge CCAF · Berlin</span></div>
+      </div>
+
       <div class="terminal-card">
         <div class="terminal-top"><div class="window-dots"><i></i><i></i><i></i></div><span>ai_deployment_engine.py</span></div>
         <pre><code>objective = "balanced"
@@ -71,6 +68,7 @@ candidate = optimize(
 
 return pareto_frontier(candidate)</code></pre>
       </div>
+
       <div class="floating-metrics">
         <div class="metric-card"><span>Inference Latency</span><strong>3.3 ms</strong><em>optimized</em></div>
         <div class="metric-card"><span>Deployment Mode</span><strong>Hybrid Edge</strong><em>systems-aware</em></div>
@@ -83,84 +81,30 @@ return pareto_frontier(candidate)</code></pre>
     <section class="section snapshot reveal">
       <div class="snapshot-grid">
         <div><span class="section-kicker">Profile Snapshot</span><h2>Research + engineering across AI systems, edge deployment, and energy-aware infrastructure.</h2></div>
-        <div class="stat-grid">
-          <div class="stat"><strong>4+</strong><span>Research & engineering roles</span></div>
-          <div class="stat"><strong>3</strong><span>Peer-reviewed publications</span></div>
-          <div class="stat"><strong>12+</strong><span>Reviewed journal articles</span></div>
-          <div class="stat"><strong>3</strong><span>NVIDIA Jetson platforms</span></div>
-        </div>
+        <div class="stat-grid"><div class="stat"><strong>4+</strong><span>Research & engineering roles</span></div><div class="stat"><strong>3</strong><span>Peer-reviewed publications</span></div><div class="stat"><strong>12+</strong><span>Reviewed journal articles</span></div><div class="stat"><strong>3</strong><span>NVIDIA Jetson platforms</span></div></div>
       </div>
     </section>
 
-    <section class="section reveal" id="expertise">
-      <div class="section-heading">
-        <span class="section-kicker">Core Expertise</span>
-        <h2>Where AI models meet deployment systems, hardware, and sustainability.</h2>
-        <p>My work sits at the intersection of applied AI, embedded computing, infrastructure optimization, benchmarking, and energy-aware deployment research.</p>
-      </div>
-      <div class="expertise-grid">
-        <article class="expert-card"><div class="expert-icon">⚙️</div><h3>AI Systems Engineering</h3><p>AI model and product development, inference optimization, benchmarking, dashboarding, and deployment decision systems.</p></article>
-        <article class="expert-card"><div class="expert-icon">🧠</div><h3>ML, CV & LLM Workflows</h3><p>Machine learning, deep learning, transfer learning, computer vision, NLP, LLM design, RAG concepts, and fine-tuning.</p></article>
-        <article class="expert-card"><div class="expert-icon">🔋</div><h3>Energy-Aware AI</h3><p>AI energy profiling, infrastructure efficiency, carbon-aware optimization, provider-level analytics, and sustainable AI research.</p></article>
-        <article class="expert-card"><div class="expert-icon">📡</div><h3>Embedded & Edge AI</h3><p>NVIDIA Jetson, CUDA, embedded systems, IoT, Raspberry Pi, Arduino, and hardware-aware AI deployment.</p></article>
+    <section class="section reveal" id="about">
+      <div class="about-layout">
+        <div class="about-card"><span class="section-kicker">About Me</span><h2>I work at the intersection of AI models, deployment systems, and real-world infrastructure.</h2><p>I am Ashiqur Rahman Rahul, an AI Systems Engineer and Research Analyst working with the Cambridge Centre for Alternative Finance, University of Cambridge. My work focuses on AI energy efficiency, deployment optimization, benchmarking, analytical systems, and infrastructure-aware AI research.</p><p>My background combines microelectronics, embedded systems, GPU computing, edge AI, software engineering, and applied machine learning. I enjoy building systems that are not only accurate, but also efficient, scalable, measurable, and practical for real deployment environments.</p><div class="about-actions"><a class="mini-link" href="assets/Ashiqur_Rahman_Rahul_CV.pdf" target="_blank" rel="noopener">View CV</a><a class="mini-link" href="https://github.com/ashiqur-rahul" target="_blank" rel="noopener">GitHub Portfolio</a></div></div>
+        <div class="about-side"><div class="about-mini-card"><span>Current Focus</span><strong>AI energy profiling, inference benchmarking, and deployment optimization.</strong></div><div class="about-mini-card"><span>Technical Identity</span><strong>AI systems · embedded AI · GPU/edge computing · infrastructure analytics.</strong></div><div class="about-mini-card"><span>Ideal Roles</span><strong>AI Systems Engineer, ML Systems Engineer, Edge AI Engineer, Research Engineer.</strong></div></div>
       </div>
     </section>
 
-    <section class="section reveal" id="experience">
-      <div class="section-heading compact"><span class="section-kicker">Experience</span><h2>Applied research, systems development, and AI infrastructure analysis.</h2></div>
-      <div class="timeline">
-        <article class="timeline-item highlight"><div class="time">07/2025 — Present</div><div class="timeline-content"><h3>AI Research Analyst</h3><h4>Cambridge Centre for Alternative Finance, University of Cambridge · Remote, Berlin</h4><ul><li>Lead research and product-oriented development on AI energy efficiency, infrastructure analysis, AI optimization, and intelligent deployment systems.</li><li>Develop benchmarking and analytical frameworks for AI inference profiling, infrastructure efficiency, and provider-level optimization analysis.</li><li>Build Python-based analytical workflows, optimization pipelines, dashboards, and infrastructure-aware evaluation systems.</li><li>Author and contribute to white papers, technical reports, and research initiatives focused on sustainable AI and scalable AI systems.</li></ul></div></article>
-        <article class="timeline-item"><div class="time">07/2024 — 06/2025</div><div class="timeline-content"><h3>Research Intern</h3><h4>Cambridge Centre for Alternative Finance, University of Cambridge · Remote</h4><ul><li>Supported AI framework development, energy efficiency research, model optimization, and AI infrastructure analysis.</li><li>Assisted with fine-tuning, performance analysis, software environment setup, and technical research documentation.</li><li>Contributed to early-stage AI energy diagnostics, optimization strategies, and benchmarking concepts.</li></ul></div></article>
-        <article class="timeline-item"><div class="time">04/2024 — 09/2024</div><div class="timeline-content"><h3>Research Assistant</h3><h4>Hamburg University of Technology · Hamburg, Germany</h4><ul><li>Developed embedded AI and hyperspectral anomaly detection pipelines using deep learning and transfer learning.</li><li>Optimized NVIDIA Jetson Nano, TX2, and AGX Xavier platforms for edge inference, benchmarking, and deployment experimentation.</li><li>Worked with Python, CUDA, C++, MATLAB, Linux, and GitHub for simulation, profiling, and AI deployment workflows.</li></ul></div></article>
-        <article class="timeline-item"><div class="time">06/2019 — 08/2021</div><div class="timeline-content"><h3>Research Assistant</h3><h4>Hanbat National University · Remote, Daejeon, South Korea</h4><ul><li>Conducted research on communication systems, IoT design, and cognitive network modeling.</li><li>Supported system architecture design, simulation, documentation, and academic writing using MATLAB, Python, LaTeX, and Excel.</li><li>Contributed to peer-reviewed publications in IEEE, Springer, and Wiley venues.</li></ul></div></article>
-      </div>
-    </section>
+    <section class="section reveal" id="expertise"><div class="section-heading"><span class="section-kicker">Core Expertise</span><h2>Where AI models meet deployment systems, hardware, and sustainability.</h2><p>My work sits at the intersection of applied AI, embedded computing, infrastructure optimization, benchmarking, and energy-aware deployment research.</p></div><div class="expertise-grid"><article class="expert-card"><div class="expert-icon">⚙️</div><h3>AI Systems Engineering</h3><p>AI model and product development, inference optimization, benchmarking, dashboarding, and deployment decision systems.</p></article><article class="expert-card"><div class="expert-icon">🧠</div><h3>ML, CV & LLM Workflows</h3><p>Machine learning, deep learning, transfer learning, computer vision, NLP, LLM design, RAG concepts, and fine-tuning.</p></article><article class="expert-card"><div class="expert-icon">🔋</div><h3>Energy-Aware AI</h3><p>AI energy profiling, infrastructure efficiency, carbon-aware optimization, provider-level analytics, and sustainable AI research.</p></article><article class="expert-card"><div class="expert-icon">📡</div><h3>Embedded & Edge AI</h3><p>NVIDIA Jetson, CUDA, embedded systems, IoT, Raspberry Pi, Arduino, and hardware-aware AI deployment.</p></article></div></section>
 
-    <section class="section reveal" id="projects">
-      <div class="section-heading"><span class="section-kicker">Selected Projects</span><h2>GitHub-backed projects across AI deployment, energy efficiency, analytics, and edge AI.</h2><p>Projects that connect research depth with engineering execution.</p></div>
-      <div class="projects-grid">
-        <article class="project-card featured-project"><div class="project-topline"><span class="project-badge">Flagship</span><span>AI Infrastructure · Streamlit · FastAPI · ONNX</span></div><h3>AI Inference Optimization & Deployment Decision Engine</h3><p>Production-style AI deployment optimization platform for evaluating inference deployments across latency, cost, carbon emissions, energy efficiency, queueing behavior, autoscaling, and infrastructure constraints.</p><div class="project-stack"><span>Streamlit</span><span>FastAPI</span><span>ONNX Runtime</span><span>Pareto Optimization</span><span>Docker</span></div><div class="project-links"><a href="https://github.com/ashiqur-rahul/ai-inference-deployment-decision-engine" target="_blank">View Repository</a><a href="https://github.com/ashiqur-rahul" target="_blank">GitHub Profile</a></div></article>
-        <article class="project-card"><div class="project-topline"><span class="project-badge green">Research</span><span>Energy · Infrastructure · Benchmarking</span></div><h3>AI Energy Efficiency Index</h3><p>Framework for benchmarking AI inference infrastructure efficiency, energy consumption, and deployment optimization across cloud ecosystems and AI infrastructure providers.</p><div class="project-stack"><span>AI Energy</span><span>Benchmarking</span><span>Analytics</span><span>Infrastructure</span></div><div class="project-links"><a href="https://github.com/ashiqur-rahul" target="_blank">GitHub Profile</a></div></article>
-        <article class="project-card"><div class="project-topline"><span class="project-badge cyan">Analytics</span><span>Signal Processing · Monitoring · Dashboards</span></div><h3>Signal Processing & Intelligent Analytics System</h3><p>Modular signal analysis and visualization platform with analytical dashboards, intelligent monitoring workflows, and data-driven evaluation pipelines.</p><div class="project-stack"><span>Python</span><span>Signal Processing</span><span>Visualization</span><span>Analytics</span></div><div class="project-links"><a href="https://github.com/ashiqur-rahul" target="_blank">GitHub Profile</a></div></article>
-        <article class="project-card"><div class="project-topline"><span class="project-badge amber">Edge AI</span><span>Jetson · Autoencoders · Computer Vision</span></div><h3>Edge AI Hyperspectral Anomaly Detection</h3><p>Transfer-learning autoencoder pipelines on NVIDIA Jetson devices with energy-aware benchmarking, optimization analysis, and comparative edge inference evaluation.</p><div class="project-stack"><span>Deep Learning</span><span>Transfer Learning</span><span>NVIDIA Jetson</span><span>CUDA</span></div><div class="project-links"><a href="https://github.com/ashiqur-rahul" target="_blank">GitHub Profile</a></div></article>
-      </div>
-    </section>
+    <section class="section reveal" id="experience"><div class="section-heading compact"><span class="section-kicker">Experience</span><h2>Applied research, systems development, and AI infrastructure analysis.</h2></div><div class="timeline"><article class="timeline-item highlight"><div class="time">07/2025 — Present</div><div class="timeline-content"><h3>AI Research Analyst</h3><h4>Cambridge Centre for Alternative Finance, University of Cambridge · Remote, Berlin</h4><ul><li>Lead research and product-oriented development on AI energy efficiency, infrastructure analysis, AI optimization, and intelligent deployment systems.</li><li>Develop benchmarking and analytical frameworks for AI inference profiling, infrastructure efficiency, and provider-level optimization analysis.</li><li>Build Python-based analytical workflows, optimization pipelines, dashboards, and infrastructure-aware evaluation systems.</li><li>Author and contribute to white papers, technical reports, and research initiatives focused on sustainable AI and scalable AI systems.</li></ul></div></article><article class="timeline-item"><div class="time">07/2024 — 06/2025</div><div class="timeline-content"><h3>Research Intern</h3><h4>Cambridge Centre for Alternative Finance, University of Cambridge · Remote</h4><ul><li>Supported AI framework development, energy efficiency research, model optimization, and AI infrastructure analysis.</li><li>Assisted with fine-tuning, performance analysis, software environment setup, and technical research documentation.</li><li>Contributed to early-stage AI energy diagnostics, optimization strategies, and benchmarking concepts.</li></ul></div></article><article class="timeline-item"><div class="time">04/2024 — 09/2024</div><div class="timeline-content"><h3>Research Assistant</h3><h4>Hamburg University of Technology · Hamburg, Germany</h4><ul><li>Developed embedded AI and hyperspectral anomaly detection pipelines using deep learning and transfer learning.</li><li>Optimized NVIDIA Jetson Nano, TX2, and AGX Xavier platforms for edge inference, benchmarking, and deployment experimentation.</li><li>Worked with Python, CUDA, C++, MATLAB, Linux, and GitHub for simulation, profiling, and AI deployment workflows.</li></ul></div></article><article class="timeline-item"><div class="time">06/2019 — 08/2021</div><div class="timeline-content"><h3>Research Assistant</h3><h4>Hanbat National University · Remote, Daejeon, South Korea</h4><ul><li>Conducted research on communication systems, IoT design, and cognitive network modeling.</li><li>Supported system architecture design, simulation, documentation, and academic writing using MATLAB, Python, LaTeX, and Excel.</li><li>Contributed to peer-reviewed publications in IEEE, Springer, and Wiley venues.</li></ul></div></article></div></section>
 
-    <section class="section reveal" id="skills">
-      <div class="section-heading compact"><span class="section-kicker">Technical Skills</span><h2>Tools and systems I work with.</h2></div>
-      <div class="skills-grid">
-        <div class="skill-group"><h3>Programming</h3><p>Python · C · C++ · MATLAB · R · SQL · Excel VBA</p></div>
-        <div class="skill-group"><h3>AI / ML / Data</h3><p>Machine Learning · Deep Learning · Transfer Learning · Model Fine-Tuning · Computer Vision · NLP · LLM Design · RAG · ONNX Runtime · Inference Optimization · Pareto Optimization · MLOps Concepts</p></div>
-        <div class="skill-group"><h3>Embedded / Hardware</h3><p>Embedded Systems · IoT Design · Raspberry Pi · Arduino UNO · ATmega32 · Hardware Setup & Simulation</p></div>
-        <div class="skill-group"><h3>GPU / Edge Systems</h3><p>NVIDIA CUDA · GPU Applications · GPU Architecture · Jetson Nano · Jetson TX2 · AGX Xavier</p></div>
-        <div class="skill-group"><h3>Platforms</h3><p>Linux · Windows · Git · GitHub · Docker · FastAPI · Streamlit · GitHub Actions · Visual Studio</p></div>
-        <div class="skill-group"><h3>Research</h3><p>Scientific Writing · Technical Writing · Academic Publication · Research Methodology · LaTeX · Proprietary Data Handling</p></div>
-      </div>
-    </section>
+    <section class="section reveal" id="projects"><div class="section-heading"><span class="section-kicker">Selected Projects</span><h2>GitHub-backed projects across AI deployment, energy efficiency, analytics, and edge AI.</h2><p>Projects that connect research depth with engineering execution.</p></div><div class="projects-grid"><article class="project-card featured-project"><div class="project-topline"><span class="project-badge">Flagship</span><span>AI Infrastructure · Streamlit · FastAPI · ONNX</span></div><h3>AI Inference Optimization & Deployment Decision Engine</h3><p>Production-style AI deployment optimization platform for evaluating inference deployments across latency, cost, carbon emissions, energy efficiency, queueing behavior, autoscaling, and infrastructure constraints.</p><div class="project-stack"><span>Streamlit</span><span>FastAPI</span><span>ONNX Runtime</span><span>Pareto Optimization</span><span>Docker</span></div><div class="project-links"><a href="https://github.com/ashiqur-rahul/ai-inference-deployment-decision-engine" target="_blank" rel="noopener">View Repository</a><a href="https://github.com/ashiqur-rahul" target="_blank" rel="noopener">GitHub Profile</a></div></article><article class="project-card"><div class="project-topline"><span class="project-badge green">Research</span><span>Energy · Infrastructure · Benchmarking</span></div><h3>AI Energy Efficiency Index</h3><p>Framework for benchmarking AI inference infrastructure efficiency, energy consumption, and deployment optimization across cloud ecosystems and AI infrastructure providers.</p><div class="project-stack"><span>AI Energy</span><span>Benchmarking</span><span>Analytics</span><span>Infrastructure</span></div><div class="project-links"><a href="https://github.com/ashiqur-rahul" target="_blank" rel="noopener">GitHub Profile</a></div></article><article class="project-card"><div class="project-topline"><span class="project-badge cyan">Analytics</span><span>Signal Processing · Monitoring · Dashboards</span></div><h3>Signal Processing & Intelligent Analytics System</h3><p>Modular signal analysis and visualization platform with analytical dashboards, intelligent monitoring workflows, and data-driven evaluation pipelines.</p><div class="project-stack"><span>Python</span><span>Signal Processing</span><span>Visualization</span><span>Analytics</span></div><div class="project-links"><a href="https://github.com/ashiqur-rahul" target="_blank" rel="noopener">GitHub Profile</a></div></article><article class="project-card"><div class="project-topline"><span class="project-badge amber">Edge AI</span><span>Jetson · Autoencoders · Computer Vision</span></div><h3>Edge AI Hyperspectral Anomaly Detection</h3><p>Transfer-learning autoencoder pipelines on NVIDIA Jetson devices with energy-aware benchmarking, optimization analysis, and comparative edge inference evaluation.</p><div class="project-stack"><span>Deep Learning</span><span>Transfer Learning</span><span>NVIDIA Jetson</span><span>CUDA</span></div><div class="project-links"><a href="https://github.com/ashiqur-rahul" target="_blank" rel="noopener">GitHub Profile</a></div></article></div></section>
 
-    <section class="section reveal" id="education">
-      <div class="section-heading compact"><span class="section-kicker">Education</span><h2>Microelectronics, embedded systems, and communication engineering.</h2></div>
-      <div class="education-grid">
-        <article class="education-card"><span>10/2021 — 04/2026</span><h3>M.Sc. Microelectronics and Microsystems</h3><h4>Hamburg University of Technology</h4><p>Specialization: Embedded Systems and Microsystem Technology. Thesis focused on hyperspectral anomaly detection on edge platforms using transfer-learning enhanced autoencoders.</p></article>
-        <article class="education-card"><span>12/2014 — 05/2019</span><h3>B.Sc. Electrical and Electronic Engineering</h3><h4>BRAC University</h4><p>Specialization: Communication Engineering and Computer Engineering. Thesis on performance analysis of cognitive unmanned aerial vehicles using signal modelling and system simulation.</p></article>
-      </div>
-    </section>
+    <section class="section reveal" id="skills"><div class="section-heading compact"><span class="section-kicker">Technical Skills</span><h2>Tools and systems I work with.</h2></div><div class="skills-grid"><div class="skill-group"><h3>Programming</h3><p>Python · C · C++ · MATLAB · R · SQL · Excel VBA</p></div><div class="skill-group"><h3>AI / ML / Data</h3><p>Machine Learning · Deep Learning · Transfer Learning · Model Fine-Tuning · Computer Vision · NLP · LLM Design · RAG · ONNX Runtime · Inference Optimization · Pareto Optimization · MLOps Concepts</p></div><div class="skill-group"><h3>Embedded / Hardware</h3><p>Embedded Systems · IoT Design · Raspberry Pi · Arduino UNO · ATmega32 · Hardware Setup & Simulation</p></div><div class="skill-group"><h3>GPU / Edge Systems</h3><p>NVIDIA CUDA · GPU Applications · GPU Architecture · Jetson Nano · Jetson TX2 · AGX Xavier</p></div><div class="skill-group"><h3>Platforms</h3><p>Linux · Windows · Git · GitHub · Docker · FastAPI · Streamlit · GitHub Actions · Visual Studio</p></div><div class="skill-group"><h3>Research</h3><p>Scientific Writing · Technical Writing · Academic Publication · Research Methodology · LaTeX · Proprietary Data Handling</p></div></div></section>
 
-    <section class="section reveal" id="publications">
-      <div class="section-heading compact"><span class="section-kicker">Publications</span><h2>Peer-reviewed research in communication systems and cognitive IoT.</h2></div>
-      <div class="publication-list">
-        <article><strong>Cognitive Unmanned Aerial Vehicle-aided Human Bond Communication System:</strong> Modeling and Performance Analysis. <em>IEEE Access, 2022.</em></article>
-        <article><strong>An optimization based approach to enhance throughput and energy efficiency</strong> for cognitive unmanned aerial vehicle networks. <em>Wireless Networks, Springer, 2021.</em></article>
-        <article><strong>Cognitive IoT-Based Health Monitoring Scheme Using Non-Orthogonal Multiple Access.</strong> <em>Wiley Book Chapter, 2022.</em></article>
-      </div>
-    </section>
+    <section class="section reveal" id="education"><div class="section-heading compact"><span class="section-kicker">Education</span><h2>Microelectronics, embedded systems, and communication engineering.</h2></div><div class="education-grid"><article class="education-card"><span>10/2021 — 04/2026</span><h3>M.Sc. Microelectronics and Microsystems</h3><h4>Hamburg University of Technology</h4><p>Specialization: Embedded Systems and Microsystem Technology. Thesis focused on hyperspectral anomaly detection on edge platforms using transfer-learning enhanced autoencoders.</p></article><article class="education-card"><span>12/2014 — 05/2019</span><h3>B.Sc. Electrical and Electronic Engineering</h3><h4>BRAC University</h4><p>Specialization: Communication Engineering and Computer Engineering. Thesis on performance analysis of cognitive unmanned aerial vehicles using signal modelling and system simulation.</p></article></div></section>
 
-    <section class="section reveal" id="contact">
-      <div class="contact-panel">
-        <div><span class="section-kicker">Contact</span><h2>Let’s build intelligent, efficient, and scalable AI systems.</h2><p>I am open to AI systems, embedded AI, edge computing, AI infrastructure, ML engineering, research engineering, and energy-aware AI deployment opportunities.</p></div>
-        <div class="contact-actions"><a class="btn primary" href="mailto:ashiqurrahul2506@gmail.com">Email Me</a><a class="btn" href="https://github.com/ashiqur-rahul" target="_blank">GitHub</a><a class="btn" href="https://www.linkedin.com/in/ashiqur-rahman-rahul/" target="_blank">LinkedIn</a></div>
-      </div>
-    </section>
+    <section class="section reveal" id="publications"><div class="section-heading compact"><span class="section-kicker">Publications</span><h2>Peer-reviewed research in communication systems and cognitive IoT.</h2></div><div class="publication-list"><article><strong>Cognitive Unmanned Aerial Vehicle-aided Human Bond Communication System:</strong> Modeling and Performance Analysis. <em>IEEE Access, 2022.</em></article><article><strong>An optimization based approach to enhance throughput and energy efficiency</strong> for cognitive unmanned aerial vehicle networks. <em>Wireless Networks, Springer, 2021.</em></article><article><strong>Cognitive IoT-Based Health Monitoring Scheme Using Non-Orthogonal Multiple Access.</strong> <em>Wiley Book Chapter, 2022.</em></article></div></section>
+
+    <section class="section reveal" id="contact"><div class="contact-panel"><div><span class="section-kicker">Contact</span><h2>Let’s build intelligent, efficient, and scalable AI systems.</h2><p>I am open to AI systems, embedded AI, edge computing, AI infrastructure, ML engineering, research engineering, and energy-aware AI deployment opportunities.</p></div><div class="contact-actions"><a class="btn primary" href="mailto:ashiqurrahul2506@gmail.com">Email Me</a><a class="btn" href="https://github.com/ashiqur-rahul" target="_blank" rel="noopener">GitHub</a><a class="btn" href="https://www.linkedin.com/in/ashiqur-rahman-rahul/" target="_blank" rel="noopener">LinkedIn</a></div></div></section>
   </main>
 
   <footer class="footer"><p>© <span id="year"></span> Ashiqur Rahman Rahul · AI Systems · Embedded AI · GPU & Edge Computing · Energy-Aware Infrastructure</p></footer>
